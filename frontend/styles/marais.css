@@ -1,0 +1,67 @@
+.container-animaux-marais {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    color: white;
+    margin-top: 980px;
+    justify-content: center;
+}
+
+.container-fiche-animaux {
+    background-color: white;
+    margin-top: 400px;
+    align-items: center;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+}
+
+.informations-animal h4, .wiki-animal h4, .container-text-image-wiki h4 {
+    margin: 5px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-text-image-wiki {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.wiki-animal {
+    width: 100%;
+}
+
+.colonne-habitat-animal {
+    padding-bottom: 60px;
+    color: black;
+    margin-top: 40px;
+}
+
+/* Styles responsives */
+@media only screen and (max-width: 768px) {
+    .container-animaux-marais {
+        margin-top: 612px;
+    }
+
+    .container-fiche-animaux {
+        margin-top: 200px;
+    }
+
+    .titre-partie-habitat p {
+        text-align: center;
+    }
+
+    .informations-animal h4, .wiki-animal h4, .container-text-image-wiki h4 {
+        font-size: 2vw;
+    }
+
+
+    .informations-animal img, .container-text-image-wiki img {
+        height: 10vh;
+    }
+}

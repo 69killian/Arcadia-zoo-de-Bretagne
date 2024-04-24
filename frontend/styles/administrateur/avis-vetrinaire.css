@@ -1,0 +1,53 @@
+/* Assurez-vous que le corps de votre page s'adapte dynamiquement à la hauteur du contenu */
+body {
+    height: auto;
+    min-height: 100vh; /* La hauteur minimale sera au moins égale à la taille de la fenêtre du navigateur */
+    margin-top: 10%; /* Utilisez un pourcentage pour ajuster la marge supérieure en fonction de la taille du contenu */
+}
+
+/* Media queries pour les résolutions 720x480 et 480x720 */
+@media only screen and (max-width: 720px) and (max-height: 480px){
+    body {
+        margin-top: 20%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}
+
+@media only screen and (max-width: 480px) and (max-height: 720px) {
+    body {
+        margin-top: 15%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}
+
+/* Media queries pour les résolutions 900x768 et 768x900 */
+@media only screen and (min-width: 900px) and (max-height: 768px){
+    body {
+        margin-top: 30%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-height: 900px) {
+    body {
+        margin-top: 25%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}
+
+/* Media queries pour les résolutions 945px et plus */
+@media screen and (min-width: 945px) {
+    body {
+        margin-top: 5%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}
+
+/* Media queries pour les résolutions 1024x900 */
+@media only screen and (max-width: 1024px) and (min-height: 900px){
+    body {
+        margin-top: 27%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}
+
+/* Media queries pour les résolutions 1920x1080 */
+@media only screen and (max-width: 1920px) and (min-height: 1080px){
+    body {
+        margin-top: 32%; /* Ajustez la marge supérieure pour la résolution spécifique */
+    }
+}

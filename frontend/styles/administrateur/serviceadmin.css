@@ -1,0 +1,106 @@
+
+/* Responsive pour les pages de membres, services, et animaux de la page administrateur */
+/* Media queries pour les résolutions 720x480 et 480x720 */
+@media only screen and (max-width: 720px) and (max-height: 480px){
+    h1 {
+        margin-top: 200px;
+    }
+    .crud-container {
+        width: 600px;
+    }
+
+    .crud-ligne p {
+        font-size: 8px;
+    }
+
+    .crud-ligne form {
+        margin-top: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) and (max-height: 720px) {
+    h1 {
+        margin-top: 800px;
+    }
+    .crud-container {
+        width: 350px;
+    }
+
+    .crud-ligne p {
+        font-size: 8px;
+    }
+}
+
+/* Media queries pour les résolutions 900x768 et 768x900 */
+@media only screen and (min-width: 900px) and (max-height: 768px){
+    h1 {
+        margin-top: 200px;
+    }
+    .crud-container {
+        width: 600px;
+    }
+
+    .crud-ligne p {
+        font-size: 8px;
+    }
+
+    .crud-ligne form {
+        margin-top: 200px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-height: 900px) {
+    h1 {
+        margin-top: 200px;
+    }
+    .crud-container {
+        width: 600px;
+    }
+
+    .crud-ligne p {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 900px){
+    h1 {
+        margin-top: 100px;
+    }
+    .crud-container {
+        width: 700px;
+    }
+
+    .crud-ligne p {
+        font-size: 10px;
+    }
+
+    .crud-ligne form {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-height: 1024px) {
+    h1 {
+        margin-top: 50px;
+    }
+    .crud-container {
+        width: 730px;
+    }
+
+    .crud-ligne p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-height: 1080px){
+    h1 {
+        margin-top: 200px;
+    }
+    .crud-container {
+        width: 1400px;
+    }
+
+    .crud-ligne p {
+        font-size: 15px;
+    }
+}

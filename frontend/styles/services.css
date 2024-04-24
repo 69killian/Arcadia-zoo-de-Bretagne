@@ -1,0 +1,130 @@
+.container-principal-services {
+    height: auto; /* Modification: La hauteur est maintenant automatique */
+    margin-top: 980px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-principal-services  h4 {
+    font-size: 20px;
+    color: white;
+    width: 800px;
+    margin-top: 10px;
+    text-align: center; /* Modification: Alignement du texte au centre */
+}
+
+.image-services {
+    display: flex;
+    position: absolute;
+    top: 208px;
+    left: 0;
+    right: 0;
+    height: 1000px;
+    width: 100vw;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.titre-services h1 {
+    position: absolute;
+    z-index: 1;
+    color: #2e8a2f;
+    font-size: 200px;
+    height: 500px;
+    width: 1445px;
+    top: 100px;
+    text-align: center; /* Modification: Alignement du texte au centre */
+}
+
+.titre-services h4 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    height: 300px;
+    width: 800px;
+    top: 600px;
+    text-align: center; /* Modification: Alignement du texte au centre */
+}
+
+.titre-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutton-decouvrir-services {
+    position: absolute;
+    top: 1000px;
+}
+
+.colonne-habitat-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-service-page {
+    max-width: 100%; /* Modification: Largeur maximale de l'image */
+    height: auto;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1172px) {
+    .container-principal-services {
+        margin-top: 500px;
+    }
+
+    .container-principal-services h4 {
+        font-size: 16px;
+        width: 90%;
+        margin-top: 5px;
+    }
+
+    .image-services {
+        height: 800px;
+    }
+
+    .titre-services h1 {
+        font-size: 50px;
+        height: 200px;
+        width: 90%;
+        top: 400px;
+    }
+
+    .titre-services h4 {
+        font-size: 16px;
+        height: 200px;
+        width: 90%;
+        top: 550px;
+    }
+
+    .boutton-decouvrir-services {
+        top: 820px;
+    }
+
+    .image-service-page {
+        height: 400px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .titre-services h4 {
+        font-size: 13px;
+        height: 200px;
+        width: 90%;
+        top: 560px;
+    }
+
+    .titre-services h1 {
+        font-size: 50px;
+        height: 200px;
+        width: 90%;
+        top: 400px;
+    }
+}

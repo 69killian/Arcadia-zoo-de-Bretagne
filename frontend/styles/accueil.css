@@ -1,0 +1,559 @@
+body {
+    background-color: rgb(30, 24, 20);
+    margin: 0;
+    font-family: Roboto Mono,sans-serif;
+}
+
+
+
+/* Cette partie gère les couleurs et style du logo */
+
+.logo-header-container {
+    margin: 50px;
+    pointer-events: none;
+}
+
+.logo-header-style-1 {
+    color: rgb(46, 139, 46);
+    font-size: 55px;
+    font-family: Zen Tokyo Zoo,sans-serif;
+    text-align: center;  
+    margin: 0;
+}
+
+.logo-header-style-2 {
+    color: rgb(46, 139, 46);
+    font-size: 31px;
+    font-family: Roboto Mono,sans-serif;
+    font-weight: 100;
+    text-align: center;  
+    margin-top: -20px;
+}
+
+.white-color {
+    color: white;
+}
+
+
+
+/*Partie qui gère le style et les couleurs du menu et de ses bouttons*/
+
+.menu-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-button-container button  {
+    background-color: rgb(46, 139, 46);
+    font-family: Roboto Mono,sans-serif;
+    font-weight: 500;
+    height: 40px;
+    width: 170px;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.357);
+}
+
+.menu-button-container button:hover, .boutton-decouvrir:hover {
+    background-color: rgb(59, 176, 59);
+}
+
+/*Supprime les couleurs des liens*/
+.liens-sans-couleur {
+    color: black;
+    text-decoration:none;
+}
+
+
+
+
+/* Stylise la partie principale de la page */
+
+
+.container-principal-presentation {
+    display: flex;
+    justify-content: center;
+}
+
+.container-presentation-bienvenue {
+    margin-right: 100px;
+}
+
+.tigre-style {
+    width: 100vw;
+    height: 800px;
+    object-fit: cover;
+    margin-top: -20px;
+    z-index: 0;
+}
+
+/* Styles de bienvenue et présentation du site */
+
+.bienvenue-style {
+    color: rgb(46, 139, 46);
+    font-size: 20px;
+    font-family: Roboto Mono,sans-serif;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.presentation-style {
+    font-family: Roboto Mono,sans-serif;
+    width: 1000px;
+    font-weight: 100;
+    color: white;
+    margin: 0px 0px 10px 0px;
+}
+
+.pandas-style {
+    height: 247px;
+    width: 1200px;
+    object-fit: cover;
+    background-color:rgb(46, 139, 46);
+    padding: 5px;
+}
+
+.boutton-contact  {
+    background-color: rgb(35, 105, 35);
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 85px;
+    border: none;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.357);
+    margin-bottom: 30px;
+}
+
+.boutton-espace-membre {
+    background-color: rgb(35, 105, 35);
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 270px;
+    padding: 10px 65px;
+    border: none;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.357);
+    margin: 0px 0px 30px 0px;
+}
+
+.boutton-se-connecter {
+    margin: 0px 0px 30px 0px;
+}
+
+.boutton-se-connecter, .bouton-formulaire {
+    background-color: rgb(9, 7, 6);
+    font-family: Roboto Mono, sans-serif;
+    font-size: 17px;
+    color: rgb(46, 139, 46);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.boutton-se-connecter:hover,.bouton-formulaire:hover, .style-selecteur:hover{
+    cursor: pointer;
+}
+
+.container-bas {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.question-compte {
+    margin: 30px 0px;
+}
+
+.comptes-acceptés {
+    margin: 0px 0px 30px 0px;
+}
+
+/* partie qui stylise le contenu principal */
+
+.container-principal-animaux {
+    flex-direction: column;
+    height: 4700px;
+}
+
+.container-principal-animaux, .container-principal-services, .container-habitats-animaux, .container-animaux-marais {
+    background-color: rgb(9, 7, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 110px;
+    box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* couleur des descriptifs et flexbox */
+.container-principal-animaux article, .container-principal-services article, .container-habitats-animaux article  {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.titre-partie-habitat {
+    font-size: 70px;
+    margin: 0;
+}
+
+.colonne-habitat, .colonne-habitat-services, .colonne-etoile, .colonne-habitat-animal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne-habitat {
+    margin: 50px 50px;
+}
+
+.colonne-habitat article, .colonne-habitat-animal article {
+    margin: 50px  30px 0px 30px;
+}
+
+.colonne-habitat, .colonne-etoile {
+    flex-direction: row;
+}
+
+.container-principal-animaux article h2 {
+    font-size: 32px;
+}
+
+.container-principal-animaux article h4 {
+    font-size: 20px;
+}
+
+/*Image de habitats et des services*/
+
+.habitat-présentation-image{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+
+.service-présentation-image {
+    height: 350px;
+    width: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+/* style des bouttons */
+.boutton-decouvrir, .boutton-decouvrir-services  {
+    background-color: rgb(46, 139, 46);
+    font-family: Roboto Mono,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 60px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.357);
+    transition: 0.2s;
+}
+
+.boutton-decouvrir:hover,.boutton-decouvrir-services:hover, .habitat-présentation-image:hover, .service-présentation-image:hover, .colonne-avis article:hover {
+    margin-bottom: 5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+/* Partie qui gère les avis */
+
+.colonne-etoile {
+    margin-top: 0px;
+}
+
+.etoile-image, .etoile-coupée {
+    height: 70px;
+    width: 70px;
+}
+
+.etoile-coupée {
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+.colonne-avis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
+    gap: 20px; /* Espacement entre les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+
+.colonne-avis article {
+    background-color: rgb(7, 9, 6);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.357);
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.colonne-avis article h6 {
+    font-size: 15px;
+}
+
+.container-formulaire-avis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 9, 6);
+    height: 530px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.357);
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.container-formulaire-avis div {
+    margin-bottom: 15px;
+}
+
+#description, .container-formulaire-avis  {
+    border-radius: 5px;
+    border: none;
+}
+
+
+/*Partie qui gère le footer*/
+.pied-de-page {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+/*logos de pied de page */
+
+.container-image-pied-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 30px;
+}
+
+.container-image-pied-page img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+/* style de la partie mention droit d'auteurs*/
+.copywright {
+    background-color: rgb(8, 19, 8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Media queries pour les écrans de taille inférieure à 768px (tablettes et mobiles) */
+@media only screen and (max-width: 1175px) {
+    /* Modifier les styles selon les besoins */
+    .logo-header-container {
+        margin: 20px;
+    }
+    .menu-button-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .menu-button-container button {
+        margin: 5px;
+        width: 150px;
+    }
+    .container-principal-presentation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-presentation-bienvenue {
+        margin-right: 0;
+        text-align: center;
+    }
+    .tigre-style {
+        height: 300px;
+        width: 100%;
+    }
+    .bienvenue-style {
+        font-size: 18px;
+    }
+    .presentation-style {
+        width: 90%;
+        font-size: 16px;
+    }
+    .pandas-style {
+        height: 200px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .container-principal-animaux {
+        margin-top: 50px;
+    }
+    .container-principal-animaux article {
+        margin: 10px;
+    }
+    .container-formulaire-avis {
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .container-formulaire-avis input,
+    .container-formulaire-avis textarea {
+        width: 90%;
+    }
+}
+
+/* Media queries pour les écrans de taille inférieure à 480px (mobiles) */
+@media only screen and (max-width: 480px) {
+    .logo-header-style-1 {
+        font-size: 40px;
+    }
+    .logo-header-style-2 {
+        font-size: 20px;
+    }
+    .bienvenue-style {
+        font-size: 16px;
+    }
+    .presentation-style {
+        font-size: 14px;
+    }
+    .container-formulaire-avis {
+        width: 90%;
+    }
+}
+
+/* Media queries pour les écrans de taille inférieure à 768px (tablettes et mobiles) */
+@media only screen and (max-width: 1772px) {
+    /* Modifier les styles selon les besoins */
+    .colonne-habitat,
+    .colonne-habitat-services,
+    .colonne-avis,
+    .container-principal-animaux,
+    .container-principal-services,
+    .container-habitats-animaux,
+    .container-animaux-marais {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .colonne-habitat article,
+    .colonne-habitat-services article,
+    .colonne-avis article,
+    .container-principal-animaux article,
+    .container-principal-services article,
+    .container-habitats-animaux article,
+    .container-animaux-marais article {
+        margin: 20px 0; /* Espacement entre les éléments en mode colonne */
+        width: 90%; /* Réduire la largeur des articles */
+    }
+
+    .colonne-habitat article img,
+    .colonne-habitat-services article img,
+    .colonne-avis article img,
+    .container-principal-animaux article img,
+    .container-principal-services article img,
+    .container-habitats-animaux article img,
+    .container-animaux-marais article img {
+        max-width: 100%; /* Empêcher les images de dépasser de leur conteneur */
+        height: auto; /* Ajuster la hauteur proportionnellement */
+    }
+}
+
+@media only screen and (max-width: 1772px) {
+    .container-principal-animaux {
+        height: auto; /* Réglage automatique de la hauteur pour les écrans plus petits */
+        min-height: calc(100vh - 120px); /* Hauteur minimale de la fenêtre visible moins la hauteur de la barre de navigation */
+    }
+}
+
+@media only screen and (max-width: 945px) {
+.colonne-avis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
+    gap: 20px; /* Espacement entre les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-height: 1024px),
+only screen and (max-width: 1024px) and (min-height: 900px) {
+    .pandas-style {
+        height: 247px;
+        width: 800px;
+        object-fit: cover;
+        background-color:rgb(46, 139, 46);
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-height: 900px),
+only screen and (max-width: 900px) and (min-height: 768px) {
+    .pandas-style {
+        height: 247px;
+        width: 700px;
+        object-fit: cover;
+        background-color:rgb(46, 139, 46);
+        padding: 5px;
+
+    }
+}
+@media only screen and (max-width: 480px) and (min-height: 720px),
+only screen and (max-width: 720px) and (min-height: 480px) {
+    .pandas-style {
+        height: 247px;
+        width: 400px;
+        object-fit: cover;
+        background-color:rgb(46, 139, 46);
+        padding: 5px;
+    }
+    .colonne-avis {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
