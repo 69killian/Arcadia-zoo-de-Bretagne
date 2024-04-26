@@ -76,4 +76,4 @@ mongorestore --db animaux.animal Arcadia/BDD/MongoDB/animaux.animal
 
 Cela restaurera la base de données MongoDB à partir des fichiers de sauvegarde présents dans le dossier `BDD` du projet.
 
-Assurez-vous de vérifier la documentation officielle de MySQL et MongoDB pour des instructions détaillées sur l'importation des bases de données.
+Assurez-vous de vérifier dans le code de l'application que les liens des bases de données soient les mêmes que celles que vous souhaitez connecter, ainsi que les paths du fichier vendor pour la connection MongoDB pour PHP, car dans le cas contraire, cela pourrait causer des erreurs de connections.
