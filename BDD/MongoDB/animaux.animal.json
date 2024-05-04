@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "6602c629fb0a7ea799d14a13"
+  },
+  "nom_animal": "Max l'Hippopotame",
+  "race_animal": "Hippopotame",
+  "nombre_visites": 2
+},
+{
+  "_id": {
+    "$oid": "6602f277fb0a7ea799d14a14"
+  },
+  "nom_animal": "Charlie Le Potamochère",
+  "race_animal": "Potamochoerus porcus",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "660593eed27a7259e5d14a0e"
+  },
+  "nom_animal": "Milo le Bongo",
+  "race_animal": "Tragelaphus eurycerus",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "660593eed27a7259e5d14a0f"
+  },
+  "nom_animal": "Teddy le Niala",
+  "race_animal": "Tragelaphus angasii",
+  "nombre_visites": 4
+},
+{
+  "_id": {
+    "$oid": "660593eed27a7259e5d14a10"
+  },
+  "nom_animal": "Ruby le Pélican",
+  "race_animal": "Pelecanidae",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "660593eed27a7259e5d14a11"
+  },
+  "nom_animal": "Jack la Rainette",
+  "race_animal": "Hyla arborea",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "66059460d27a7259e5d14a12"
+  },
+  "nom_animal": "Léon la loutre",
+  "race_animal": "Lutrinae",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "66059550d27a7259e5d14a13"
+  },
+  "nom_animal": "Coco le Héron",
+  "race_animal": "Bubulcus ibis",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "66059550d27a7259e5d14a14"
+  },
+  "nom_animal": "Ouroboros la Couleuvre",
+  "race_animal": "Natrix natrix",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "66059550d27a7259e5d14a15"
+  },
+  "nom_animal": "Cléo l'Elephant",
+  "race_animal": "Loxodonta africana",
+  "nombre_visites": 1
+},
+{
+  "_id": {
+    "$oid": "66059550d27a7259e5d14a16"
+  },
+  "nom_animal": "Reptila l'Aligator",
+  "race_animal": "Alligatoridae",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "6605966bd27a7259e5d14a17"
+  },
+  "nom_animal": "Yaoundé le Gorille",
+  "race_animal": "Hominidae",
+  "nombre_visites": 3
+},
+{
+  "_id": {
+    "$oid": "6605966bd27a7259e5d14a18"
+  },
+  "nom_animal": "Fred le Capucin",
+  "race_animal": "Cebus imitator",
+  "nombre_visites": 8
+},
+{
+  "_id": {
+    "$oid": "6605966bd27a7259e5d14a19"
+  },
+  "nom_animal": "Nico le panda",
+  "race_animal": "Ailurpoda melanoleuca",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "6605966bd27a7259e5d14a1a"
+  },
+  "nom_animal": "Panthera la panthère",
+  "race_animal": "Panthera pardus",
+  "nombre_visites": 2
+},
+{
+  "_id": {
+    "$oid": "6605970ad27a7259e5d14a1b"
+  },
+  "nom_animal": "Woody le Perroquet",
+  "race_animal": "Psittaciformes",
+  "nombre_visites": 2
+},
+{
+  "_id": {
+    "$oid": "6605970ad27a7259e5d14a1c"
+  },
+  "nom_animal": "Léo le léopard",
+  "race_animal": "Panthera pardus",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "6605970ad27a7259e5d14a1d"
+  },
+  "nom_animal": "Lucie la giraphe",
+  "race_animal": "Giraffa cameleopardis",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "6605970ad27a7259e5d14a1e"
+  },
+  "nom_animal": "Zebra le Zèbre",
+  "race_animal": "Equus",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "660597cbd27a7259e5d14a1f"
+  },
+  "nom_animal": "Thierry l'Hippotrague",
+  "race_animal": "Hippotragus niger",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "660597cbd27a7259e5d14a20"
+  },
+  "nom_animal": "Réda le Rhino",
+  "race_animal": "Ceratotherium simum",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "660597cbd27a7259e5d14a21"
+  },
+  "nom_animal": "Sophie la Tortue",
+  "race_animal": "Galàpagos",
+  "nombre_visites": 1
+},
+{
+  "_id": {
+    "$oid": "660597cbd27a7259e5d14a22"
+  },
+  "nom_animal": "Marc l'Otocyon",
+  "race_animal": "Otocyon megalotis",
+  "nombre_visites": 0
+},
+{
+  "_id": {
+    "$oid": "66059928d27a7259e5d14a27"
+  },
+  "nom_animal": "Simba le Lion",
+  "race_animal": "Panthera leo",
+  "nombre_visites": 0
+}]
