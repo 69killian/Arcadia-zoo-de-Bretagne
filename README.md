@@ -55,8 +55,10 @@ Ce guide vous aidera à configurer un environnement de développement local pour
 ## Importation de la base de données MySQL d'Arcadia
 
 1. Assurez-vous que le serveur MySQL est en cours d'exécution.
-2. Utilisez l'outil en ligne de commande `mysql` ou une interface graphique comme phpMyAdmin.
-3. Si vous utilisez l'outil en ligne de commande `mysql`, exécutez la commande suivante depuis le terminal :
+2. Assurez-vous aussi que la taille maximale en octets soit sufisamment élevée afin d'accueillir une base de données volumineuse avec `SHOW VARIABLES LIKE 'max_allowed_packet';`
+3. Si ce n'est pas le cas, vous pouvez définir une taille de 32 Mo avec `SET GLOBAL max_allowed_packet = 33554432;`
+4. Utilisez l'outil en ligne de commande `mysql` ou une interface graphique comme phpMyAdmin.
+5. Si vous utilisez l'outil en ligne de commande `mysql`, exécutez la commande suivante depuis le terminal :
 
 ```bash
 mysql -u utilisateur -p espace_admin < Arcadia/BDD/SQL/espace_admin.sql
